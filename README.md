@@ -2,7 +2,7 @@
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/framework-Streamlit-red.svg)](https://streamlit.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 An AI-assisted, zero-cost support data reconciliation and analytics dashboard built for **Vireo Audio Pvt. Ltd.** to audit support ticket exports, reconcile multi-crore financial variances for the Board Pack, identify frontline agent misclassification, and detect cost-leakage policy violations.
 
@@ -90,11 +90,11 @@ vireo-refund-intelligence/
 │   └── 01_data_understanding.ipynb   # Exploratory Data Analysis & Validation
 ├── reports/
 │   └── memo_to_arjun.md      # 1-Page Executive Board Pack Memo
-├── src/                      # Modular Python utilities
-│   ├── analysis/
-│   ├── config/
-│   ├── data/
-│   └── utils/
+├──                    # Modular Python utilities
+│   
+│   
+│   
+│   
 ├── .gitignore                # Production gitignore rules
 ├── main.py                   # Main Streamlit Dashboard Application
 ├── README.md                 # Project Documentation
@@ -108,7 +108,3 @@ vireo-refund-intelligence/
 - **Executive Board Pack Memo**: Located at [`reports/memo_to_arjun.md`](reports/memo_to_arjun.md)
 - **Official Submission Form**: Located at [`data/reference/submission-form.md`](data/reference/submission-form.md)
 
----
-
-## 📄 License
-This project is licensed under the MIT License.
