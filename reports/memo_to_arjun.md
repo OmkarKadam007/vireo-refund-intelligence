@@ -8,7 +8,7 @@ Subject: Resolution of the ₹1 Crore Refund Variance and GW-OTHER Misclassifica
 
 The actual support refund volume is operating stably at ~₹11.18 Lakh per quarter. The >₹1 Crore figure in the Finance export is the result of two structural data errors stemming from the September 2025 system migration, compounded by a behavioral reporting issue on the frontline.
 
-1. The 1 Crore vs 11 Lak Data Bug
+1. The "1 Crore vs 11 Lakh" Data Bug
 The raw helpdesk export contains two critical reporting flaws:
 
 Currency Unit Mismatch: The legacy Freshdesk system (legacy_fd) stored monetary values in paise, while the new helpdesk stores them in rupees. When combined in the raw export, legacy refunds appear 100x larger than reality (e.g., a ₹900 refund is logged as 90,000).
@@ -27,7 +27,7 @@ We deployed a deterministic NLP text-matching engine to analyze the unstructured
 
 We successfully re-classified 533 of these tickets (over 53%) into their correct categories.
 
-The analysis proves agents are not arbitrarily giving away free money.The hidden refunds were predominantly standard operational scenarios: an additional ₹4 Lakh was actually RETURN-QC-OK, and ₹3 Lakh was DUP-PAYMENT.
+The analysis proves agents are not arbitrarily giving awafree money.The hidden refunds were predominantly standard operational scenarios: an additional ₹4 Lakh was actually RETURN-QC-OK, and ₹3 Lakh was DUP-PAYMENT.
 
 True GW-OTHER exposure is significantly lower than previously reported.
 
